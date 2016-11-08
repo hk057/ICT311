@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/list_item_setting_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="4dp"
+        android:editable="true"
+        tools:text="Name"
+        />
+
+    <TextView
+        android:id="@+id/list_item_setting_id_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_item_setting_name_text_view"
+        android:padding="4dp"
+        tools:text="ID"
+        />
+    <TextView
+        android:id="@+id/list_item_setting_gender_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_item_setting_id_text_view"
+        android:padding="4dp"
+        tools:text="Gender"
+        />
+    <TextView
+        android:id="@+id/list_item_setting_email_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_setting_gender_text_view"
+        android:padding="4dp"
+        tools:text="Email"/>
+
+    <TextView
+        android:id="@+id/list_item_setting_comment_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_setting_email_text_view"
+        android:padding="4dp"
+        tools:text="Comment"/>
+</RelativeLayout>
